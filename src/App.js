@@ -1,18 +1,16 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { Link, Route }   from 'react-router-dom';
+import AppDefault from './AppDefault.js';
+import AppPage    from './AppPage.js';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+      <div>
+      <Route path="/"     component={AppDefault}/>
+      <Route path="/page" component={AppPage}/>
       </div>
     );
   }

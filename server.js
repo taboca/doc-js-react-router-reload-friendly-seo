@@ -5,7 +5,7 @@ const path       = require('path');
 const fs         = require('fs');
 const app        = express();
 
-app.get('/doc/pageA', function (req, res, next) {
+app.get('/doc/page/a', function (req, res, next) {
   var options = {
     root: __dirname + '/build/',
   };
