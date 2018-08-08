@@ -60,7 +60,7 @@ app.get('/page', function (req, res, next) {
 
 ## SEO challenge — moving forward
 
-Now the challenge is to serve something to a simple browser, say a crawler; say one that does not want to render React JavaScript. Some options are:
+Now the challenge is to serve something to a simple browser, say a crawler; say one that does not want to render React JavaScript. 
 
 To just get and serve the html file, as indicated in the above function, does not help; because the file that it generated in the build directory does not bring any content relative to the path, right out of the box (initial fetch). The actuall initial file is simple more like the following dump:
 
