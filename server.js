@@ -21,6 +21,7 @@ app.get('/page-static', function (req, res, next) {
       299 B     build/static/css/main.c17080f1.css
   */
 
+
 });
 
 app.get('/page', function (req, res, next) {
