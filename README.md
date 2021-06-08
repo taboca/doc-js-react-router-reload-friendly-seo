@@ -1,4 +1,4 @@
-# doc-js-react-router-reload-friendly-seo
+# Study note - React router friendly with SEO 
 
 ## Introduction
 
